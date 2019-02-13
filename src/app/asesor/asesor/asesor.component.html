@@ -1,0 +1,26 @@
+
+<div class= "container" background-color = "black">
+  <div class = "row">
+    
+      <div class = "col-md-4">
+        <app-reporte [reporte]="reporte">
+        </app-reporte>
+      </div>
+
+      <div class = "col-md-4">
+          <app-perdidos [perdidos]="perdidos">
+
+          </app-perdidos>
+      </div>
+       
+  </div>
+  <br>
+  <br>
+  <div class = "row-md-offset-4">
+        <app-botones [actual]="actual"
+        [perdidos]="perdidos"
+        (report)="actualizarReporte()">  
+
+        </app-botones>
+  </div>
+</div>

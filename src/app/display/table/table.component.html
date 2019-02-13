@@ -1,0 +1,15 @@
+<div class = "table-tickets">
+  <table class = "table">
+    <thead class = "thead-dark">
+      <th>Turno</th>
+      <th>Modulo No</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let turno of turnos">
+        <td>{{turno.name}}</td>
+        <td *ngIf = "turno.adviser != null">{{turno.adviser.name}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

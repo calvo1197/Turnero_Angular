@@ -1,0 +1,10 @@
+.kiosko{
+    width: 50%;
+    text-align: center;
+}
+
+.kiosko h2{
+    font-size: 3em;
+    font-style: oblique;
+}
+
